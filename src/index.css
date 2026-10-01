@@ -1,0 +1,56 @@
+@import "tailwindcss";
+
+@theme {
+  --font-serif: "Cormorant Garamond", Georgia, serif;
+  --font-display: "Cinzel", "Cormorant Garamond", Georgia, serif;
+  --font-sans: "Jost", system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+  --font-jost: "Jost", sans-serif;
+  --color-gold-100: #FBF7EE;
+  --color-gold-200: #F4E8CB;
+  --color-gold-300: #EAD49E;
+  --color-gold-400: #DFBF73;
+  --color-gold-500: #D4AF37;
+  --color-gold-600: #B38E22;
+  --color-obsidian-950: #040405;
+  --color-obsidian-900: #08080A;
+  --color-obsidian-850: #0E0E12;
+  --color-obsidian-800: #14141A;
+  --color-obsidian-700: #1E1E26;
+}
+
+:root {
+  font-family: var(--font-sans);
+  color-scheme: dark;
+}
+
+body {
+  background-color: #040405;
+  color: #ECEAE6;
+  overflow-x: hidden;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+}
+
+/* Luxury Editorial & Metallic Accent Utilities */
+.font-display {
+  font-family: var(--font-display);
+}
+
+.gold-gradient-text {
+  background: linear-gradient(135deg, #FFF9ED 0%, #E6C875 45%, #C29B48 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.gold-hairline {
+  border-color: rgba(212, 175, 55, 0.22);
+}
+
+.gold-glow {
+  box-shadow: 0 0 35px -8px rgba(212, 175, 55, 0.2);
+}
+
+/* Subtle Film & Architectural Ambience */
+.bg-radial-vignette {
+  background: radial-gradient(circle at 50% 30%, rgba(212, 175, 55, 0.05) 0%, transparent 70%);
+}

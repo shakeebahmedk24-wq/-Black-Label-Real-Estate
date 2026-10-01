@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64" width="64" height="64">
+  <rect width="64" height="64" rx="8" fill="#0A0A0B" />
+  <rect x="3" y="3" width="58" height="58" rx="6" fill="none" stroke="#D4AF37" stroke-width="1.2" stroke-opacity="0.6" />
+  <g fill="none" stroke="#E6C875" stroke-linecap="round" stroke-linejoin="round">
+    <!-- Stylized architectural B and L interlocking mark -->
+    <path d="M22 17 L22 47" stroke-width="2.5" />
+    <path d="M22 17 L33 17 C38 17 41 20 41 24.5 C41 28.5 38 31.5 33 31.5 L22 31.5" stroke-width="2.2" />
+    <path d="M22 31.5 L35 31.5 C40 31.5 43.5 34.5 43.5 39 C43.5 43.5 40 47 35 47 L22 47" stroke-width="2.2" />
+    <!-- Horizontal floor line baseline of L -->
+    <path d="M22 47 L46 47" stroke-width="2.5" stroke="#DFBE76" />
+  </g>
+</svg>

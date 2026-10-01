@@ -1,0 +1,8 @@
+{
+  "name": " Black Label Real Estate",
+  "description": "Discreet residential real estate brokerage and advisory based at Millennium Tower, 301 Mission Street, San Francisco, California.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
